@@ -1,0 +1,40 @@
+@import "./base.css";
+
+#page .intro h3 {
+  font-size: large;
+}
+
+#page div {
+  overflow: visible;
+}
+
+#page a {
+  color: #224499;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#page h1.exercise {
+  padding: 1rem;
+  border-top: 2px solid rgb(148, 148, 148);
+  border-bottom: 2px solid rgb(148, 148, 148);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#page video,
+#page audio {
+  left: 50%;
+  width: 400px;
+  margin-left: -200px;
+}
+
+#page iframe,
+#page app-dictation {
+  left: 50%;
+  width: 600px;
+  margin-left: -300px;
+}
